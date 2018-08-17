@@ -12,9 +12,9 @@ module Notaru
 
       def ctcp_version(m)
         if @bot.config.source_url
-          m.ctcp_reply "Notaru v#{VERSION} using Cinch v#{Cinch::VERSION} | #{@bot.config.source_url}"
+          m.ctcp_reply "w3c4-bot v#{VERSION} by w3c4 v#{Cinch::VERSION} | #{@bot.config.source_url}"
         else
-          m.ctcp_reply "Notaru v#{VERSION} using Cinch v#{Cinch::VERSION}"
+          m.ctcp_reply "w3c4-bot v#{VERSION} by w3c4 v#{Cinch::VERSION}"
         end
       end
 

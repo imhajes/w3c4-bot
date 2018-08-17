@@ -7,7 +7,7 @@
 ## :maple_leaf: To deploy many bots to heroku, run:
 
 ```sh
-$ git clone https://github.com/imhajes/herokubot.git
+$ git clone https://github.com/imhajes/w3c4-bot.git
 $ cd herokubot
 $ heroku create --stack cedar
 $ heroku git:remote -a [YOUR_APP_NAME]

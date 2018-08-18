@@ -1,0 +1,19 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    cinch (2.3.4)
+    cinch-basic_ctcp (1.1.1)
+      cinch (~> 2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cinch
+  cinch-basic_ctcp
+
+RUBY VERSION
+   ruby 2.4.4p296
+
+BUNDLED WITH
+   1.16.2

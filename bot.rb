@@ -5,11 +5,11 @@ require "cinch/plugins/basic_ctcp"
 
 $bot = Cinch::Bot.new do
   configure do |c|
-    c.server   = "eu.undernet.org"
+    c.server   = "irc.dal.net"
     c.user     = "w3c4"
-    c.nick     = "w3c4-bot"
+    c.nick     = "saudi-ctcp"
     c.realname = "0,2 The 7w3c4 0,2 Bot 13v1 0,3 Saudi Arabia 3,30"
-    c.channels = ["#w3c4"]
+    c.channels = ["#go"]
     c.plugins.options[Cinch::Plugins::BasicCTCP][:replies] = {
     :version => 'mIRC v7.52'
   }

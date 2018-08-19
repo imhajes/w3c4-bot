@@ -16,3 +16,7 @@ $ git push heroku master && heroku scale web=0 && heroku scale bot=1
 ## :maple_leaf: For Auto Create App in Heroku, run:
 <pre class="language-term"><code class="language-term">$ sh fast.sh
 </code></pre>
+
+## You can do this from the Heroku CLI with the command
+```sh
+$ heroku logs --tail

@@ -5,8 +5,8 @@ require 'cinch'
 $bot = Cinch::Bot.new do
   configure do |c|
     c.server = 'irc.dal.net'
-    c.user = 'hajes'
-    c.nick = 'no_banned_me'
+    c.user = 'nohacks'
+    c.nick = 'kingbot'
     c.realname = "0,2 The 7w3c4 0,2 Bot 13v1 0,3 Saudi Arabia 3,30"
     c.channels = ['#go']
   end

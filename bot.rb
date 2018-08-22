@@ -3,7 +3,7 @@
 require 'cinch'
 
 # Who should be able to access these plugins
-$admin = "injekt"
+$admin = "hajes"
 
 bot = Cinch::Bot.new do
   configure do |c|

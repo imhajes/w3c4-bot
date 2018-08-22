@@ -2,7 +2,7 @@
 
 require 'cinch'
 
-$admin = "injekt"
+$admin = "hajes"
 
 $bot = Cinch::Bot.new do
   configure do |c|
